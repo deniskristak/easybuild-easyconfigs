@@ -22,6 +22,10 @@ builddependencies = [
     ('binutils', '2.35'),
 ]
 
+dependencies = [
+    ('CMake', '3.18.4'),
+]
+
 configopts = " --disable-samples --enable-shared "
 
 sanity_check_paths = {
